@@ -2,7 +2,7 @@
 
 > 3 AI agents. 5 TypeScript tasks. Benchmarked with `tsc --noEmit`.
 
-Read the full article: [beyondit on Medium](https://medium.com/@beyondit)
+Read the full article: [beyondit on Medium](https://medium.com/@BeyondIT.Bog)
 
 ---
 
@@ -20,7 +20,7 @@ The config files in this repo change that.
 ## Quick Start
 
 ```bash
-git clone https://github.com/beyondit/typescript-ai-benchmark.git
+git clone https://github.com/codeverseproo/typescript-ai-benchmark
 cd typescript-ai-benchmark
 npm install
 npx tsc --noEmit   # should exit 0
@@ -114,4 +114,4 @@ Especially if yours are worse than ours.
 
 ---
 
-*Built by [beyondit](https://medium.com/@beyondit)*
+*Built by [beyondit](https://medium.com/@BeyondIT.Bog)*
