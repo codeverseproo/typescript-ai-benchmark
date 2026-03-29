@@ -1,0 +1,13 @@
+# Full config: https://github.com/beyondit/typescript-ai-benchmark
+
+---
+description: TypeScript strict mode enforcement
+globs: ["**/*.ts", "**/*.tsx"]
+alwaysApply: true
+---
+
+- NEVER use `any`. Use `unknown`.
+- NEVER use `as unknown as X`. Implement a type guard.
+- NEVER suppress errors with `@ts-ignore`.
+- ALWAYS run `tsc --noEmit` before marking a task done.
+- When a type can't be threaded — stop and ask. Don't assert.
